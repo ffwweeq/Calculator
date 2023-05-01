@@ -20,9 +20,23 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
+        float firstNumber, secondNumber;
+        int operators = -1;
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        private void btnOne_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtNumber.Text == "0")
+            {
+                txtNumber.Text = "";
+            }
+
+            txtNumber.Text = txtNumber.Text + "1";
+        }
+
+
     }
 }
