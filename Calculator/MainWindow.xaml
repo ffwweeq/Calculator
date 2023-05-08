@@ -25,6 +25,8 @@
         <Button x:Name="btnPlus" Content="*" HorizontalAlignment="Left" Margin="581,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnPlus_Click"/>
         <Button x:Name="btnMinus" Content="-" HorizontalAlignment="Left" Margin="581,269,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnMinus_Click"/>
         <Button x:Name="btnAdd" Content="+" HorizontalAlignment="Left" Margin="581,331,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnAdd_Click"/>
+        <Button x:Name="aaa" Content="&lt; &lt;" HorizontalAlignment="Left" Margin="106,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="aaa_Click"/>
+        <Button x:Name="bbb" Content="%" HorizontalAlignment="Left" Margin="106,331,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="bbb_Click"/>
 
     </Grid>
 </Window>

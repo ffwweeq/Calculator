@@ -136,6 +136,7 @@ namespace Calculator
                 txtNumber.Text = "";
             txtNumber.Text = txtNumber.Text + _number;
         }
+
         private void Select_Operator(int _operator)
         {
             firstNumber = Convert.ToSingle(txtNumber.Text); 
@@ -143,7 +144,19 @@ namespace Calculator
             operators = _operator; 
         }
 
+        private void aaa_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtNumber.Text.Length > 0)
+            {
+                txtNumber.Text = txtNumber.Text.Substring(0, txtNumber.Text.Length - 1);
+            }
+        }
 
+        private void bbb_Click(object sender, RoutedEventArgs e)
+        {
+            firstNumber = Convert.ToSingle(txtNumber.Text);
+            txtNumber.Text = (firstNumber / 100).ToString();
+        }
 
     }
 
