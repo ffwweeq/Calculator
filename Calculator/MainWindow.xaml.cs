@@ -73,30 +73,22 @@ namespace Calculator
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            firstNumber = Convert.ToSingle(txtNumber.Text); 
-            txtNumber.Text = "0";
-            operators = 0;
+            Select_Operator(0);
         }
 
         private void btnMinus_Click(object sender, RoutedEventArgs e)
         {
-            firstNumber = Convert.ToSingle(txtNumber.Text);
-            txtNumber.Text = "0";
-            operators = 1;
+            Select_Operator(1);
         }
 
         private void btnPlus_Click(object sender, RoutedEventArgs e)
         {
-            firstNumber = Convert.ToSingle(txtNumber.Text);
-            txtNumber.Text = "0";
-            operators = 2;
+            Select_Operator(2);
         }
 
         private void btnDivide_Click(object sender, RoutedEventArgs e)
         {
-            firstNumber = Convert.ToSingle(txtNumber.Text);
-            txtNumber.Text = "0";
-            operators = 3;
+            Select_Operator(3);
         }
 
         private void btnEqual_Click(object sender, RoutedEventArgs e)
@@ -144,6 +136,15 @@ namespace Calculator
                 txtNumber.Text = "";
             txtNumber.Text = txtNumber.Text + _number;
         }
+        private void Select_Operator(int _operator)
+        {
+            firstNumber = Convert.ToSingle(txtNumber.Text); 
+            txtNumber.Text = "0"; 
+            operators = _operator; 
+        }
+
+
+
     }
 
 
