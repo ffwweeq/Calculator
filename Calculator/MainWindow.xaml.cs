@@ -140,6 +140,7 @@ namespace Calculator
             txtNumber.Text = "0";
             operators = 3;
         }
+
         private void btnEqual_Click(object sender, RoutedEventArgs e)
         {
             float finalResults = 0f;
@@ -165,7 +166,18 @@ namespace Calculator
             secondNumber = 0f;
             operators = -1;
         }
-
+        private void btnDot_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtNumber.Text.IndexOf(".") == -1)
+                txtNumber.Text = txtNumber.Text + ".";
+        }
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumber.Text = "0";
+            firstNumber = 0f;
+            secondNumber = 0f;
+            operators = -1;
+        }
 
     }
 
