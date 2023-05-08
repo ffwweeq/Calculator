@@ -171,6 +171,7 @@ namespace Calculator
             if (txtNumber.Text.IndexOf(".") == -1)
                 txtNumber.Text = txtNumber.Text + ".";
         }
+
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
             txtNumber.Text = "0";
@@ -178,7 +179,12 @@ namespace Calculator
             secondNumber = 0f;
             operators = -1;
         }
-
+        private void Add_Number(string _number)
+        {
+            if (txtNumber.Text == "0")
+                txtNumber.Text = "";
+            txtNumber.Text = txtNumber.Text + _number;
+        }
     }
 
 
