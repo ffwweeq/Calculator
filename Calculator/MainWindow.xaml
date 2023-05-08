@@ -16,7 +16,7 @@
         <Button x:Name="btnEight" Content="8" HorizontalAlignment="Left" Margin="333,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnEight_Click"/>
         <Button x:Name="btnFive" Content="5" HorizontalAlignment="Left" Margin="333,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnFive_Click"/>
         <Button x:Name="btnTwo" Content="2" HorizontalAlignment="Left" Margin="333,269,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnTwo_Click"/>
-        <Button x:Name="btnZero" Content="0" HorizontalAlignment="Left" Margin="333,331,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66"/>
+        <Button x:Name="btnZero" Content="0" HorizontalAlignment="Left" Margin="333,331,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnZero_Click"/>
         <Button x:Name="btnNine" Content="9" HorizontalAlignment="Left" Margin="459,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnNine_Click"/>
         <Button x:Name="btnSix" Content="6" HorizontalAlignment="Left" Margin="459,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnSix_Click"/>
         <Button x:Name="btnThree" Content="3" HorizontalAlignment="Left" Margin="459,269,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.023" Height="35" Width="66" Click="btnThree_Click"/>
