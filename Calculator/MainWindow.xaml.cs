@@ -112,5 +112,38 @@ namespace Calculator
 
             txtNumber.Text = txtNumber.Text + "9";
         }
+
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            firstNumber = Convert.ToSingle(txtNumber.Text); 
+            txtNumber.Text = "0";
+            operators = 0;
+        }
+
+        private void btnMinus_Click(object sender, RoutedEventArgs e)
+        {
+            firstNumber = Convert.ToSingle(txtNumber.Text);
+            txtNumber.Text = "0";
+            operators = 1;
+        }
+
+        private void btnPlus_Click(object sender, RoutedEventArgs e)
+        {
+            firstNumber = Convert.ToSingle(txtNumber.Text);
+            txtNumber.Text = "0";
+            operators = 2;
+        }
+
+        private void btnDivide_Click(object sender, RoutedEventArgs e)
+        {
+            firstNumber = Convert.ToSingle(txtNumber.Text);
+            txtNumber.Text = "0";
+            operators = 3;
+        }
+
+
+
     }
+
+
 }
